@@ -12,7 +12,7 @@ function HeroSection(){
           <div className="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
             <div className="col-xl-6 col-lg-8">
               <h2 style={{ fontFamily:'vazir' , color:'#343a40'}}> <span style={{color:'#579971'}}>پامیر تلکام خدمات</span>  <br/>شارژ کردیت کارت و بسته های انترنتی</h2>
-              <p>We are team of talented digital marketers</p>
+              <p></p>
             </div>
           </div>
   
