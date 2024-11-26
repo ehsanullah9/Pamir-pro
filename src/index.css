@@ -3,3 +3,11 @@
   padding: 0px;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'lalezar';
+  src: url('../src/assets/fonts/Lalezar-Regular.ttf');
+}
+@font-face {
+  font-family: 'vazir';
+  src: url('../src/assets/fonts/Vazirmatn-Black.ttf');
+}
