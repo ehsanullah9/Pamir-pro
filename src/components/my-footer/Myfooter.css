@@ -1,0 +1,7 @@
+.right ul li{
+list-style-type: none;
+padding: 5px;
+}
+.right ul li:hover{
+    margin-right: 30px;
+}

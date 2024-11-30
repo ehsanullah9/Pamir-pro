@@ -3,7 +3,7 @@ import mainimg from '../../assets/images/intro02.webp'
 function HeroSection(){
     return(
         <>
-        <section id="hero" className="hero section dark-background">
+        <section id="hero" className="hero section dark-background p-relative">
 
         <img src={mainimg} alt="" data-aos="fade-in" className='img-fluid' placement="end" />
   
