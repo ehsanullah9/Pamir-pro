@@ -11,9 +11,9 @@ function Mynavbar(){
     const expand = 'md';
     return(
         <>
-         <Navbar expand={expand} className="fixed-top ">
+         <Navbar expand={expand} className='nav-link bg-success'>
           <Container >
-          <Link to='/' className='nav-link'>
+          <Link to='/' >
           <Navbar.Brand style={{fontFamily:'lalezar',color:'blue'}}>
           <span><img src={logo} className='log-img m-3' /></span>
           پامیر تلکام
@@ -34,18 +34,18 @@ function Mynavbar(){
                 </Link>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-center flex-grow-1 pe-5 text-5"  style={{fontFamily:'lalezar'}}>
-                  <Link to='/' className='nav-link text-4 navbtn'>صفحه اصلی</Link>
-                  <Link to='/services' className='nav-link navbtn'>خدمات ما </Link>
-                  <Link to='/about' className='nav-link navbtn'>درباره ما</Link>
-                  <Link className='nav-link navbtn'>ورود</Link>
+                <Nav className="justify-content-center flex-grow-1"  style={{fontFamily:'lalezar',fontSize:'18px'}}>
+                  <Link to='/' className='nav-link text-4 '>صفحه اصلی</Link>
+                  <Link to='/services' className='nav-link '>خدمات ما </Link>
+                  <Link to='/about' className='nav-link '>درباره ما</Link>
+                  <Link className='nav-link '>ورود</Link>
                 </Nav>
               </Offcanvas.Body>
           
           </Navbar.Offcanvas>
 
           <Link to='https://seller.pamirtelecom.net/login' className='nav-link'>
-            <button className='btn btn-outline-secondary' style={{fontFamily:'lalezar' }}>ساخت حساب کاربری</button>
+            <button className='btn btn-outline-primary' style={{fontFamily:'lalezar'  }}>ساخت حساب کاربری</button>
           </Link>
           </Container>
 

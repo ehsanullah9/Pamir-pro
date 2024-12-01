@@ -7,9 +7,9 @@ import { FaWhatsapp } from "react-icons/fa";
 function Myfooter(){
     return(
         <Container fluid className='bg-secondary'> 
-              <Row className='py-4'>
+              <Row >
             <Col className='right'>
-            <ul style={{fontFamily:'vazir' ,color:'white' ,width:'200px'}} className='py-4'>
+            <ul style={{fontFamily:'vazir , sansrif' ,color:'white' ,width:'200px'}} className='py-4'>
                 <li className='py-2'><span><FaTelegramPlane size={25}/></span> تلگرام</li>
                 <li className='py-2'><span><FaFacebookF size={25} /></span> فیسبوک</li>
                 <li className='py-2'><span><TbWorld size={25} /></span> ساخت حساب</li>

@@ -1,7 +1,12 @@
 .right ul li{
 list-style-type: none;
 padding: 5px;
+transition: transform  0.5s ease-out;
 }
 .right ul li:hover{
-    margin-right: 30px;
+    transform: translateX(-20px);
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid #495057;
+
 }
