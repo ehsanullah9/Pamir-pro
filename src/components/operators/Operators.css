@@ -1,10 +1,10 @@
 .my-cart{
     transition: all 1s ;
     border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow: hidden;
 }
 .my-cart:hover{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .morebtn{
     transition: all 0.2s ;

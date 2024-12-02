@@ -13,8 +13,8 @@ function Mynavbar(){
         <>
          <Navbar expand={expand} className='nav-link bg-light'>
           <Container >
-          <Link to='/' >
-          <Navbar.Brand style={{fontFamily:'lalezar',color:'blue'}}>
+          <Link to='/' className='nav-link'>
+          <Navbar.Brand style={{fontFamily:'lalezar',color:'green'}}>
           <span><img src={logo} className='log-img m-3' /></span>
           پامیر تلکام
           </Navbar.Brand>
@@ -27,14 +27,14 @@ function Mynavbar(){
             >
               <Offcanvas.Header closeButton>
                 <Link to='/' className='nav-link'>
-                <Offcanvas.Title style={{fontFamily:'lalezar',color:'blue'}} id={`offcanvasNavbarLabel-expand-${expand}`}>
+                <Offcanvas.Title style={{fontFamily:'lalezar',color:'green'}} id={`offcanvasNavbarLabel-expand-${expand}`}>
                 <span><img src={logo} className='log-img ' /></span>
                    پامیر تلکام
                 </Offcanvas.Title>
                 </Link>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-center flex-grow-1"  style={{fontFamily:'lalezar',fontSize:'18px'}}>
+                <Nav className="justify-content-center flex-grow-1"  style={{fontFamily:'lalezar',fontSize:'22px'}}>
                   <Link to='/' className='nav-link text-4 '>صفحه اصلی</Link>
                   <Link to='/services' className='nav-link '>خدمات ما </Link>
                   <Link to='/about' className='nav-link '>درباره ما</Link>
