@@ -3,7 +3,7 @@ import {Button, Container} from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { Link } from 'react-router-dom';
+import { NavLink , Link} from 'react-router-dom';
 import logo from '../../assets/images/logo.png'
 
 
@@ -35,18 +35,15 @@ function Mynavbar(){
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-center flex-grow-1"  style={{fontFamily:'lalezar',fontSize:'22px'}}>
-                  <Link to='/' className='nav-link text-4 '>صفحه اصلی</Link>
-                  <Link to='/services' className='nav-link '>خدمات ما </Link>
-                  <Link to='/about' className='nav-link '>درباره ما</Link>
-                  <Link className='nav-link '>ورود</Link>
+                  <NavLink to='/' className='nav-link text-4'>صفحه اصلی</NavLink>
+                  <NavLink to='/services' className='nav-link '>خدمات ما </NavLink>
+                  <NavLink to='/about' className='nav-link'>درباره ما</NavLink>
                 </Nav>
               </Offcanvas.Body>
           
           </Navbar.Offcanvas>
 
-          <Link to='https://seller.pamirtelecom.net/login' className='nav-link'>
-            <button className='btn btn-outline-primary' style={{fontFamily:'lalezar'  }}>ساخت حساب کاربری</button>
-          </Link>
+            <a href='intro02.webp' download="intro02.webp" className='btn btn-outline-success' style={{fontFamily:'lalezar'  }}>دانلود اپلکیشن موبایل</a>
           </Container>
 
         </Navbar>

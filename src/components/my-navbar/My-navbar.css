@@ -1,9 +1,15 @@
-.navbtn:hover{
-    transform: scale(2);
-    
-}
+
 .log-img{
     width: 70;
     height: 66px;
     border-radius: 20px;
+}
+a.active {
+    border-bottom: 2px solid;
+    transition: all 0.5 ;
+}
+a.active:hover{
+    border-bottom: 2px solid;
+
+
 }
